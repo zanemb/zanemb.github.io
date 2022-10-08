@@ -2,8 +2,8 @@
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark" style="color:white">
     <img class="mb-4" src="https://icon-library.com/images/grocery-icon/grocery-icon-3.jpg" alt="">
     <div class="col-md-6 p-lg-1 mx-auto my-2">
-        <h1 class="display-4 font-weight-normal">Marcus & Zane's Online Grocery Store</h1>
-        <p class="lead font-weight-normal">Begin shopping by clicking the link below</p>
+        <h1 class="display-4 font-weight-normal">Z's Test Website</h1>
+        <p class="lead font-weight-normal">Begin by clicking the link below</p>
         <a class="btn btn-primary" href="{{ url_for('market_page') }}">Begin Shopping</a>
     </div>
     <div class="product-device box-shadow d-none d-md-block"></div>
