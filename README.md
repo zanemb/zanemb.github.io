@@ -1,3 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  </head>
+  
+  <body>
+    <p id="text"></p>
+    <py-script>
+      print("Hello World")
+      x = 0
+      pyscript.write("text", x + 1)
+    </py-script>
+  </body>
+</html>
+
+<!--
 ## Home
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark" style="color:white">
     <img class="mb-4" src="IMG_1187.jpeg" alt="">
@@ -9,4 +26,4 @@
     <div class="product-device box-shadow d-none d-md-block"></div>
     <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
 </div>
-
+-->
