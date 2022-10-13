@@ -7,10 +7,9 @@
   <body>
     <p id="text"></p>
     <py-script>
-      print("Hello World")
-      x = 0
-      pyscript.write("text", x + 1)
+      print("PyScript Test:")
     </py-script>
+    <py-repl id="my-repl" auto-generate=true> </py-repl>
   </body>
 </html>
 
